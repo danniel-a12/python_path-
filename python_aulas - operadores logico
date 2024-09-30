@@ -1,0 +1,17 @@
+"""
+operadores e operação 
+
+and - Duas condições sejam verdadeiras
+or - Pelo menos uma condição seja verdadeira 
+not - Inverte o valor
+"""
+
+x = 2 
+y = 1 
+z = 4
+
+print(x == y and x == z) # x é igual a y, nesse caso o "AND" validade se todos os valores sejam iguais 
+
+print(x == y or z == x)  # nenhuma é igual logo é falso
+
+print(not(x==y and x == z)) # o valor foi invertido por conta que a "x==y and x == z" é false 

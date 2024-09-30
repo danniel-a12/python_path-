@@ -1,0 +1,51 @@
+"""
+		Strings
+
+Strings é um tipo de dados em que se armazena
+coleções de caracteres(texto)
+
+são declaradas entre aspas
+				var1 = 1
+				var2 = "1"
+
+Nesse exemplo var1 é um numeral, enquanto var2 é uma string
+"""
+
+
+a = "Daniel"
+b = "Deonilio   s"
+
+concatenar = a + " "+b # "  " usado para dar espaço 
+
+
+tamanho = len (concatenar) # len usado para contar 
+print(tamanho)
+
+
+print(a[3]) # navegar pela string, tomar cuidado porque o python conta o 0 
+print(concatenar[0:8]) # imprimir de 0 até 8 caracter da variavel a e b
+
+
+concatenar = concatenar.lower() # aplicar metodo na variavel para ela ser printada
+
+print(concatenar.lower()) # método para coloar a string em minusculo 
+print(concatenar.upper()) # para colocar string em maiusculo   
+print(concatenar)
+
+"""
+		pesquisar todos os metodos do python
+em python, strings são objeto 
+pode-se aplicar métodos a strings
+
+string = string.método() 
+
+
+"""
+
+# metodo.strip - remove espaçamento das strings
+# metodo.lower - colocar a string em minusculo 
+# metodo.upper - colocar a string em maiusculo 
+
+minha_string = "O rato roeu a roupa do rei de roma"
+minha_lista = minha_string.split(" ") # minha_lista = minha_string.split("r") // linha de codigo para tirar a letra R do codigo 
+print(minha_lista)

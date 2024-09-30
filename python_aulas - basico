@@ -1,0 +1,67 @@
+"""comentário de 
+varias linhas.......
+"""
+# print escreve na IDE
+
+# -*- coding: utf-8 -*- // interpretação em português ''
+print ("olá mundo, é o tudo 2") 
+
+
+
+						#divisões matematica 
+print (2+2)
+print (2-2)
+print (2*2)
+
+#valore elevado, exemplo 2 elevado a 3 = 2³
+print (2 ** 3)
+
+#demostrar resto de uma divisão 
+print(10 % 3)
+
+
+
+
+
+						# variaveis
+"""
+n pode ter carecteres especias
+é case sensitive 
+
+= // operador de atribuição 
+valor // define o tipo de atribuição
+ex:
+nome_da_variavel = valor
+
+					tipo de dados
+numerico inteiro : 47
+numerico flutuante : 12.89
+textual (string) : "olá mundo "
+Booleana : true ou false 
+
+"""
+minha_pika = "Olá mundo!"
+print(minha_pika) 
+
+var1 = 1 #int
+var2 = 2.5 #float
+var3 = "Eu sou uma String" #string
+var4 = True #bolean
+var4 = False #bolean 
+
+print (var1)
+print (var2)
+print (var3)
+print (var4)
+
+"""
+== - igual
+!= - Diferente
+> - Maior
+< - Menor
+>= - Maior ou igual 
+<= - Menor ou igual 
+
+
+
+"""

@@ -1,0 +1,20 @@
+lista1 = [1,2,3,4,5]
+lista2 = ["ola","mundo","!!!!"]
+lista3 = [0,"ola","biscoito","bolacha",9.99,True]
+
+for i in lista1: 
+	print(i)
+
+
+
+"""
+range 
+"""
+
+for i in range(10): # se atentar pq ele começa a contar do 0 até 9, 0 é contado
+	print(i)
+
+
+
+for i in range (10,20,2): # de 10 até 20, contando de 2 em 2 
+	print(i)

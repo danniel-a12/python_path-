@@ -1,0 +1,51 @@
+
+"""
+	if
+realiza teste condicionais
+executa um bloco SE uma determinada condição for atendida 
+Avalia se condição é verdadeira ou não 
+
+"""
+
+# -*- coding: utf-8 -*-
+
+x = 1
+y = 100
+
+if x > y:
+	print("x é maior que y")
+
+if y > x:
+	print("y é maior que x")
+
+
+"""
+	comando else
+É executado caso a condição do comando if não seja atendida 
+"""
+
+x1 = 1
+x2 = 2 
+
+if x1 > x2:
+	print(" x1 maior que x2 ")
+
+else:
+	print(" x1 não é maior x2\nteste ") # \n coloca a prox palavra pra baixo linha de baixo do prompt
+
+print("\n")
+
+
+"""
+	comando elif
+"""
+
+x = 1
+y = 2 
+
+if x == y:
+	print("numeros iguais")
+elif y > x: # ele vai rodar a primeira linha verdadeira /// elif exige obrigatoriamente uma condição
+	print("y maior que x")
+else:
+	print("numero diferente")

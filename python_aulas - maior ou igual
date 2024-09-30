@@ -1,0 +1,18 @@
+x = 3
+y = 2 
+
+soma = x + y 
+
+print( soma < y) # Y é maior que soma?  
+
+"""
+== - igual
+!= - Diferente
+> - Maior
+< - Menor
+>= - Maior ou igual 
+<= - Menor ou igual 
+
+
+
+"""

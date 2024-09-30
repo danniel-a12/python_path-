@@ -1,0 +1,18 @@
+"""
+
+estruturas de repetição 
+iteradores       iterar == repetir 
+repetem um trecho do código 
+
+	enquanto uma condição avaliada for verdadeira
+	durante uma pré-determinada condição 
+
+""" 
+
+x = 1 
+
+while x < 10 :
+	print(x) # o valor de x nunca vai mudar, logo x sempre vai ser 1 infinito.
+	x = x+1 # por isso que nessa linha o x vai ganhar 1 até chegar o valor 10. aonde o valor verdadeiro terminar 
+				# x+= 1 estende da mesma forma que a linha de cima 
+
